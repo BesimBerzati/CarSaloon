@@ -1,0 +1,101 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+    background-image: url("ratzen-autohausbild3.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+/* Stile für den Header */
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+header h1 {
+	font-size: 32px;
+	margin: 0;
+}
+
+nav ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style: none;
+	margin-right: 20px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Stile für die Kontaktseite */
+main {
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact-form {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.contact-form button {
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+.contact-form button:hover {
+	background-color: #555;
+}
+
+.contact-info {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact-info p {
+	margin: 0;
+}
+
+/* Stile für den Footer */
+footer {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
