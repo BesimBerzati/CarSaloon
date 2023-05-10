@@ -30,23 +30,3 @@ cur.close()
 conn.close()
 
 
-
-# INSERT INTO CARS
-# insert_into_table('cars', 'name, price, color, year, model, brand', "'BMW', 40000, 'Black', 2018, 'X5', 'BMW'")
-# insert_into_table('cars', 'name, price, color, year, model, brand', "'Mercedes', 30000, 'White', 2018, 'C300', 'Mercedes'")
-# insert_into_table('cars', 'name, price, color, year, model, brand', "'Audi', 25000, 'Dark Grey', 2018, 'A4', 'Audi'")
-
-#INSERT INTO USERS
-def insert_into_table_users(table_name, columns, values):
-    cur.execute(f"INSERT INTO {table_name} ({columns}) VALUES {values};")
-    conn.commit()
-
-
-# insert_into_table('users', 'name, email, password', "'Besim', 'besim.berzati96@gmail.com', 'Test123!'")
-# insert_into_table('users', 'name, email, password', "'Marcin', 'Marcin.Gay@Testmail.com', 'Test1234!'")
-# insert_into_table('users', 'name, email, password', "'Blaise', 'BlaiseTest@web.de', 'Test12345!'")
-
-#INSERT INTO ORDERS
-
-#INSERT INTO MAINTENANCE
-
