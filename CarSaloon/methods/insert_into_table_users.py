@@ -22,8 +22,3 @@ def insert_into_table_users(table_name, columns, values):
 
 
 insert_into_table_users(table_name, columns, values_formatted)
-
-
-# insert_into_table('users', 'name, email, password', "'Besim', 'besim.berzati96@gmail.com', 'Test123!'")
-# insert_into_table('users', 'name, email, password', "'Marcin', 'Marcin.Gay@Testmail.com', 'Test1234!'")
-# insert_into_table('users', 'name, email, password', "'Blaise', 'BlaiseTest@web.de', 'Test12345!'")

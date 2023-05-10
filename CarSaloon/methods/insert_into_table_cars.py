@@ -14,9 +14,6 @@ columns_cars = 'name, price, color, year, model, brand'
 values_input_cars = input(f"Enter the values for {columns_cars}, separated by commas: ")
 values_list_cars = values_input_cars.split(',')
 
-values_list_cars[1] = int(values_list_cars[1])
-values_list_cars[3] = int(values_list_cars[3])
-
 values_formatted = f"('{values_list_cars[0]}', {values_list_cars[1]}, '{values_list_cars[2]}', {values_list_cars[3]}, '{values_list_cars[4]}', '{values_list_cars[5]}')"
 
 def insert_into_table_cars(table_name, columns, values):
